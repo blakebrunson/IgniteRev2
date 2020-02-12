@@ -1,0 +1,182 @@
+/* ignite red = #ce2b2d */
+/* I started over with style and replaced 'style1' */
+
+/**{
+	box-sizing: border-box;
+
+}*/
+
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #000;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.navRow {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+}
+
+@media all and (max-width: 600px) {
+  
+  .navRow, .navRow2 {
+    flex-wrap: wrap;
+  }
+
+  
+  .navRow2 > li {
+    flex-basis: 50%;
+  }
+}
+
+
+.navRow>ul {
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.navRow>ul>li {
+	margin: auto; 
+	text-align: center; 
+	justify-content: flex-end;
+	color: #ce2b2d;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+
+.navRow > #navLogo {
+	padding: 10px;
+}
+
+a.navLink:link { 
+    color: #ce2b2d;
+    text-decoration:none;
+}
+a.navLink:visited { 
+    color: #ce2b2d;
+    text-decoration:none;
+}
+a.navLink:hover { 
+    color: #fff;
+    text-decoration:none;
+}
+a.navLink:active { 
+    color: #ce2b2d;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.xlClmn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ddd;
+	padding-bottom: 20px;
+}
+
+.xlClmn>h1 {
+	letter-spacing: 4px;
+}
+
+/* Permalink - use to edit and share this gradient: 
+http://colorzilla.com/gradient-editor/#601414+20,ce2b2d+50,601414+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100
+*/
+.marquee {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ce2b2d;
+	text-align: center;
+	background: -moz-linear-gradient(left, rgba(96,20,20,0) 0%, rgba(96,20,20,0.8) 15%, rgba(96,20,20,1) 19%, rgba(96,20,20,1) 20%, rgba(206,43,45,1) 50%, rgba(96,20,20,1) 80%, rgba(96,20,20,1) 81%, rgba(96,20,20,0.8) 85%, rgba(96,20,20,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(96,20,20,0) 0%,rgba(96,20,20,0.8) 15%,rgba(96,20,20,1) 19%,rgba(96,20,20,1) 20%,rgba(206,43,45,1) 50%,rgba(96,20,20,1) 80%,rgba(96,20,20,1) 81%,rgba(96,20,20,0.8) 85%,rgba(96,20,20,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(96,20,20,0) 0%,rgba(96,20,20,0.8) 15%,rgba(96,20,20,1) 19%,rgba(96,20,20,1) 20%,rgba(206,43,45,1) 50%,rgba(96,20,20,1) 80%,rgba(96,20,20,1) 81%,rgba(96,20,20,0.8) 85%,rgba(96,20,20,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.marqContent {
+
+}
+
+.billboard {
+	display: block;
+	text-align: center;
+}
+
+.picbox>img {
+
+	width: 65%;
+    height:auto;
+    max-width: 600px;
+
+}
+
+.bottomBoard, .teamRoll {
+	padding: 10px;
+	color: #ddd;
+	max-width: 800px;
+	margin: auto;
+
+}
+.bottomBoard>p, .teamRoll>p {
+	text-align: justify;
+	margin-bottom: 60px;
+}
+
+a.bottomBoard:link { 
+	color: red;
+}
+
+a.bottomBoard:visited { 
+	color: red;
+}
+
+.socialRow {
+	margin-top: 50px;
+}
+.socialRow>p {
+	color: #888;
+	text-align: center;
+}
+
+.socLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+.bottomBlock {
+	display: block;
+	margin-bottom: 100px;
+}
+
+.videos {
+  	margin: auto;
+  	width: 50%;
+  	padding: 10px;
+
+}
+
+.videoRoll {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.teamRoll {
+	padding-left: 
+}
